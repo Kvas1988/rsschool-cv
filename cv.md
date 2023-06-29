@@ -1,9 +1,9 @@
 # Shohin Aleksandr
 
-Contacts: 
-    - Kvas1988 (Discord rs_school)
-    - @AlexShokhin on Twitter
-    - [Github](https://github.com/Kvas1988)
+Contacts:  
+- Kvas1988 (Discord rs_school)  
+- @AlexShokhin on Twitter  
+- [Github](https://github.com/Kvas1988)
 
 ## About
 I'm an analyst in fashion-retail company based in Moscow. Very intrested in techonologies (web, machine learning, gamedev)
