@@ -2,9 +2,117 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 <body>
-    
+    <div class="centered">
+        <div class="two-columns">
+            <div class="left-column">
+                <!-- TODO add photo -->
+                <h1>Shohin Aleksandr</h1>
+                <section class="contacts">
+                    <p>Contacts:</p>
+                    <ul>
+                        <li>Kvas1988 (Discord rs_school)</li> <!--TODO Add icons-->
+                        <li>
+                            <a href="https://twitter.com/AlexShokhin">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Kvas1988">Github</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <h2>About</h2>
+                <p>I'm an analyst in fashion-retail company based in Moscow. Very intrested in techonologies (web, machine learning, gamedev)</p>                
+            </div>
+            <div class="right-column">
+
+                
+
+                <h2>Coding Skills</h2>
+                <ul>
+                    <li>Python
+                        <ul class="lang-skills">
+                            <li>Analytics stack: pandas, numpy, sqlalchemy, matplotlib, plotly, sklearn, pytorch (basics)</li>
+                            <li>Basic knowledge of Flask, FastAPI</li>
+                            <li>pyqt</li>
+                        </ul>
+                    </li>
+
+                    <li>PL/SQL (Oracle)
+                        <ul class="lang-skills">
+                            <li>Agg functions</li>
+                            <li>Inner select</li>
+                            <li>Window functions</li>
+                            <li>Cursors</li>
+                            <li>Stored functions, packages</li>
+                            <li>Materialized View</li>
+                            <li>Scheduler jobs</li>
+                        </ul>
+                    </li>
+                    
+                    <li>Java
+                        <ul class="lang-skills">
+                            <li>Basic knowledge of Spring</li>
+                            <li>Hexlet Java Specialization  </li>
+                        </ul>
+                    </li>
+                    
+                    <li>C++
+                        <ul class="lang-skills">
+                            <li>std library</li>
+                            <li>OpenGL</li>
+                            <li>Unreal Engine</li>
+                            <li>OpenCV</li>
+                        </ul>
+                    </li>
+                    
+                    <li>Docker</li>        
+                </ul>
+
+                <h2>Code Samples</h2>
+                <ul>
+                    <li>Java
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Kvas1988/mitrasoft_test">Mitrasoft web app</a>: test assignment for Mitrasoft company based on two microservices: server and client, implementing REST API and gRPC. Stack: Spring Boot, Hibernate, PostgreSQL, Liquibase, Gradle, Docker.
+                            </li>
+                            <li>
+                                <a href="https://github.com/Kvas1988/wg_backend_test">Wargaming backend test</a>: another test assignment (the task is <a href="https://github.com/wgnet/wg_forge_backend">open (rus)</a>). There's some basic tasks related to SQL and small scripts writen in Python. The main part is Spring application implementing CRUD for managing kitties:) Stack: Spring Boot, PostgreSQL, Maven, Docker.
+                            </li>
+                            <li>
+                                <a href="https://github.com/Kvas1988/java-project-lvl5">Hexlet project lvl5</a>: Final project of a <a href="https://ru.hexlet.io/programs/java">Hexlet Java-Developer Course</a>. Implementation of Task Manager basend on Spring Framework. Stack: Spring (Boot, Security, Validation, Hibernate), Liquibase, H2 DB, PostgreSQL, Gradle, Github Actions, Heroku.
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>C++
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Kvas1988/RayTracingOneWeekend">Ray Tracing in One Weekend</a>: Implementation of <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">famous book by Piter Shirley</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Kvas1988/yandex_cpp_belts">Yandex/MIPT C++ Belts</a> (WIP 2/5): Test assignments for Yandex's course on Coursera.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2>Working Experience</h2>
+                <p>
+                    As an analyst I mostly work with data (sql-queries, pandas, some machine-learning models, extracting and uploading data from api\to DB). At this moment working on deployment of <a href="https://superset.apache.org/">Superset</a> BI and <a href="https://airflow.apache.org/">Airflow</a> servers (remote server via ssh, Docker-Compose, Postgresql)
+                </p>
+
+                <h2>Education</h2>
+                <ul>
+                    <li>Economist (specialist). Plekhanov Russian University of Economics</li>
+                    <li>English B2</li>
+                </ul>
+            </div>
+        </div>
+    <!-- TODO Footer -->
+    </div>
 </body>
 </html>

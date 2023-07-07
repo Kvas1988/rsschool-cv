@@ -1,0 +1,24 @@
+body {
+    background-color: #edf2fa;
+}
+
+.centered {
+    margin: 10px auto;
+    width: 1000px;
+    background-color: white;
+    /* TODO shadows */
+}
+
+.two-columns {
+    display: flex;
+}
+
+.left-column {
+    position: fixed;
+    width: 300px;
+}
+
+.right-column {
+    width: 700px;
+    margin-left: 300px;
+}
